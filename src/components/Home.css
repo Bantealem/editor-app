@@ -1,0 +1,18 @@
+.Home {
+    position: relative;
+}
+
+.content {
+    margin: 50px;
+}
+
+/* .selector-container {
+    opacity: showPopUp ? 1: 0,
+    height: 100,
+    width: 200,
+    position: "absolute",
+    bottom: -120,
+    left: 50,
+    border: "1px solid #e4e4e4",
+    borderRadius: 5,
+} */

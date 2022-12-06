@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live](https://soft-cajeta-ee544f.netlify.app/)
+[Live](https://editor-b3e21.web.ap)
 
 ```
 $ git clone https://github.com/Bantealem/notion-like-editor.git

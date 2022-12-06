@@ -1,9 +1,10 @@
 import React from "react";
-import { FaCloudflare, FaRegClock } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa";
 import { BsThreeDotsVertical, BsArrowDownLeft } from "react-icons/bs";
 import { FiCheckCircle } from "react-icons/fi";
 import { GiRabbitHead } from "react-icons/gi";
 import { RxDividerVertical } from "react-icons/rx";
+import { CiCloud } from "react-icons/ci"
 import "./header.css";
 
 const Header = () => {
@@ -18,38 +19,38 @@ const Header = () => {
           </li>
           <li class="active">
             <a id="clock" href="">
-              <RxDividerVertical />
+              <RxDividerVertical style={{color:'#757575'}} />
             </a>
           </li>
           <li class="active">
             <a id="clock" href="">
-              <FaRegClock /> 0 min
+              <FaRegClock style={{color:'#757575'}} /> 0 min
             </a>
           </li>
           <li class="active">
             <a id="clock" href="">
-              <RxDividerVertical />
+              <RxDividerVertical style={{color:'#757575'}} />
             </a>
           </li>
           <li class="active">
             <a id="image" href="">
-              <GiRabbitHead />
+              <GiRabbitHead style={{color:'red'}}/>
             </a>
           </li>
           <li class="active">
             <a id="arrow" href=""></a>
-            <BsArrowDownLeft />
+            <BsArrowDownLeft style={{color:'#757575'}} />
           </li>
         </ul>
         <ul className="left-side">
           <li class="active">
             <a id="circle" href="">
-              <FiCheckCircle />
+              <FiCheckCircle style={{color:'#444'}} />
             </a>
           </li>
           <li class="active">
             <a id="circle" href="">
-              <FaCloudflare />
+              <CiCloud style={{color:'green'}} />
             </a>
           </li>
 

@@ -43,6 +43,13 @@
     margin-bottom: 20px;
 
 }
+#arrow {
+    margin-left: 100px;
+}
+
+.left-side{
+    padding-right: 20px;
+}
 
 .Text {
     font-size: 38px;
